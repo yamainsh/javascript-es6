@@ -9,6 +9,9 @@ let additionalOrders = [
   { orderId: "A005", paymentType: "Credit Card", totalPrice: 45000 },
 ];
 
-// Start coding here
+const newOrders = [
+  ...orders,
+  ...additionalOrders,
+]
 
 console.log(newOrders);
